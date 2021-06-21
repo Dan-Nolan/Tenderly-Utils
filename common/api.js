@@ -3,6 +3,6 @@ const axios = require('axios');
 const apiUrl = "https://api.tenderly.co/api/v1";
 
 module.exports = axios.create({
-  baseUrl: apiUrl,
+  baseURL: apiUrl,
   headers: { 'X-Access-Key': apiKey }
 });

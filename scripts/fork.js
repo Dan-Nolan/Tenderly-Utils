@@ -1,4 +1,4 @@
-const api = require('./api');
+const api = require('../common/api');
 const { accountId, projectSlug } = require('../common/config');
 
 const forkUrl = `/account/${accountId}/project/${projectSlug}/fork`;

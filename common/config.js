@@ -1,6 +1,8 @@
+require("dotenv").config();
+
 module.exports = {
   accountId: "chainshot",
   projectSlug: "beacon",
-  forkId: "21581150-fbf9-41a8-bc7d-7e78beb82bc3",
+  forkId: "357afb96-2f2a-4199-9bbe-dd02a1b3281a",
   apiKey: process.env.API_KEY
 }
